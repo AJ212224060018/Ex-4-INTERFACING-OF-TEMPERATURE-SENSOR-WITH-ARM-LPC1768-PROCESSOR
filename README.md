@@ -48,8 +48,9 @@ Clibrary , retarget printf, CMSIS core, CMSIS boot, common header files, SYSCON 
 
 simple example.c, Uart Receiver interrupt.c, lcd.c, lcd.h
 
-## PROGRAM:
+## PROGRAM
 ```
+
 #include <LPC17xx.h>
 #include "lcd.h"
 #include "delay.h"     
@@ -105,9 +106,9 @@ int main()
 	   
     }    
 }
-
 ```
-## OUTPUT:
+## OUTPUT
+![WhatsApp Image 2026-03-17 at 10 53 26 AM](https://github.com/user-attachments/assets/78f25964-91ee-4203-bfd8-92c523dc1c10)
 
 ## RESULT:
 Thus, an embedded c program to interface temperature sensor with ARM processor was executed and output was verified successfully.
